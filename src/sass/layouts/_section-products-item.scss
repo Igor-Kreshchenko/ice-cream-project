@@ -52,7 +52,13 @@
       &::after {
         content: '';
         display: block;
-        // background-image: url(./images/vector/ellipse.svg);
+        width: 26px;
+        height: 6px;
+        background-image: url(../images/vector/ellipse.svg);
+
+        background-repeat: repeat-x;
+        background-size: contain;
+        color: $color-main;
       }
 
       @media screen and (min-width: $desktop) {
