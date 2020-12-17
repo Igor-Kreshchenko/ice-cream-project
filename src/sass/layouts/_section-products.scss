@@ -129,12 +129,13 @@
         &::after {
           content: '';
           display: block;
+          margin-top: 30px;
           width: 26px;
           height: 6px;
           border-radius: 50%;
-          background-image: url(../images/vector/arrow-right.svg);
+          background-image: url(../images/vector/dots.svg);
 
-          background-repeat: repeat;
+          background-repeat: repeat-x;
           background-size: contain;
           color: $color-main;
         }
