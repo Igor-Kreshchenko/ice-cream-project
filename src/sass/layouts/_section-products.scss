@@ -149,14 +149,14 @@
         font-family: DM Sans;
         font-weight: 700;
         font-size: 14px;
-        letter-spacing: 1.5;
+        line-height: 1.5;
         text-align: center;
         letter-spacing: 0.04em;
 
         color: $color-main;
 
         @media screen and (min-width: $tablet) {
-          letter-spacing: 1.78;
+          line-height: 1.78;
         }
 
         @media screen and (min-width: $desktop) {
