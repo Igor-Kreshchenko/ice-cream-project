@@ -108,15 +108,15 @@
     }
 
     .product-content {
-      margin-bottom: 30px;
+      // padding-bottom: 30px;
 
-      @media screen and (min-width: $tablet) {
-        margin-bottom: 40px;
-      }
+      // @media screen and (min-width: $tablet) {
+      //   margin-bottom: 40px;
+      // }
 
-      @media screen and (min-width: $desktop) {
-        margin-bottom: 62px;
-      }
+      // @media screen and (min-width: $desktop) {
+      //   margin-bottom: 62px;
+      // }
 
       .product-item-title {
         position: relative;
@@ -157,6 +157,7 @@
       .product-item-text {
         margin: 0;
         padding-top: 30px;
+        padding-bottom: 30px;
         font-family: DM Sans;
         font-weight: 700;
         font-size: 14px;
@@ -167,10 +168,12 @@
         color: $color-main;
 
         @media screen and (min-width: $tablet) {
+          padding-bottom: 40px;
           line-height: 1.78;
         }
 
         @media screen and (min-width: $desktop) {
+          padding-bottom: 62px;
           font-size: 16px;
           line-height: 1.75;
         }
