@@ -134,8 +134,9 @@
           height: 6px;
           margin-left: auto;
           margin-right: auto;
-          background-image: url(../images/vector/dots.svg);
 
+          background-image: url(../images/vector/dots.svg);
+          background-repeat: no-repeat;
           background-size: contain;
           color: $color-main;
           text-align: center;
