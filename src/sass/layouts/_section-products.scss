@@ -91,6 +91,7 @@
         margin-bottom: 130px;
       }
     }
+
     @media screen and (min-width: $tablet) {
       width: 220px;
       padding-top: 152px;
@@ -135,6 +136,7 @@
 
           background-size: contain;
           color: $color-main;
+          text-align: center;
         }
 
         @media screen and (min-width: $desktop) {
