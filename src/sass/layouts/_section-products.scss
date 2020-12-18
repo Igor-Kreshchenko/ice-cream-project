@@ -73,6 +73,10 @@
   @media screen and (min-width: $tablet) {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (min-width: $desktop) {
+      justify-content: center;
+    }
   }
 
   .product-item {
@@ -89,6 +93,10 @@
     &:not(:last-child) {
       @media screen and (max-width: 739px) {
         margin-bottom: 130px;
+      }
+
+      @media screen and (min-width: $desktop) {
+        margin-right: 30px;
       }
     }
 
@@ -157,7 +165,7 @@
       .product-item-text {
         margin: 0;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
         font-family: DM Sans;
         font-weight: 700;
         font-size: 14px;
@@ -168,7 +176,6 @@
         color: $color-main;
 
         @media screen and (min-width: $tablet) {
-          padding-bottom: 40px;
           line-height: 1.78;
         }
 
